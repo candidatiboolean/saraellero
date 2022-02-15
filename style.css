@@ -1,0 +1,53 @@
+h2{
+  color: greenyellow;
+  height: 40px;
+  flex-direction: column;
+  font-family: monospace;
+
+}
+body{
+  margin: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(background.jpg);
+  background-attachment: scroll;
+}
+
+section{
+  color: black;
+  width: 60%;
+  font-family: monospace;
+}
+#progressBar1{
+  height: 20px;
+  width: 30%;
+  background-color: lightgreen;
+  border-radius: .7em;
+}
+#progressBar2{
+  height: 20px;
+  width: 50%;
+  background-color: lightblue;
+  border-radius: .7em;
+}
+#progressBar3{
+  height: 20px;
+  width: 10%;
+  background-color: red;
+  border-radius: .7em;
+}
+button{
+  border-radius: .6em;
+  padding: 3px;
+  font-family: monospace;
+}
+#logo{
+  padding: 5px;
+}
+div{
+  background-color: white;
+  text-align-last: left;
+  height: inherit;
+  border-radius: .7em;
+}
